@@ -1,0 +1,117 @@
+head {
+    background-color: black;
+}
+
+.kep {
+    width: 300px;
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+}
+#hun {
+    color: green;
+}
+
+.profil {
+    width: 30px;
+    margin-right: auto;
+    margin-left: 10%;
+    display: block;
+}
+
+.store {
+    margin-right: 10%;
+    margin-left: auto;
+    width: 30px;
+    display: block;
+}
+
+.menu {
+  margin-left: 50%;
+  margin-right: 50%;
+  display: block;
+  width: 30px;
+}
+
+body {
+    background-image: url(neon_waves_2.jpg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 44px;
+    color: white
+  }
+  
+  #elso_beke {
+    text-align: center;
+    background-image: url(neon_3d_cubes_4k.jpg);
+    font: bold;
+    color: white;
+  }
+  
+  #masodik_beke {
+    background-image: url(neon_cubes_4k.jpg);
+    font: bold;
+    color: white;
+  }
+  
+  #harmadik_beke {
+   background-image: url(neon_waves_2.jpg);
+  }
+  
+  #strong {
+    font-size: 32px;
+    font: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  #szoveg {
+    text-align: center;
+    font-size: 18px;
+    font: Bold;
+    width: 500px;
+    border: 10px;
+    margin: 20px;
+  }
+  
+  #gomb_egy {
+    width: 50px;
+    background-image: url(image.jfif);
+    text-align: center;
+  }
+
+  #masodik_gomb {
+    width: 980px;
+    background-image: url(neon_waves_2.jpg);
+   
+  }
+
+  dir {
+    text-align: center;
+  }
+  
+  div {
+    text-align: center;
+  }
+

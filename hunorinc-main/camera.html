@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HUNOR</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  
+    <div>
+        <a href="index.html" hreflang="Hu" style=" width: 50%;" height="50%"><img src="rglogo.png" alt="Hunor Star Studio"></a>
+    </div>
+
+  </head>
+  <body style="background-image: url(neon_waves_2.jpg);">
+    <script src="viewport.js"></script>
+
+   
+    <py-env>
+        - cv2
+    </py-env>
+  
+  
+    <py-script>
+      # import the opencv library
+  import cv2
+  
+  # define a video capture object
+  vid = cv2.VideoCapture(0)
+  
+  while (True):
+  
+      # Capture the video frame
+      # by frame
+      ret, frame = vid.read()
+  
+      # Display the resulting frame
+      cv2.imshow('XenCam', frame)
+  
+      # the 'q' button is set as the
+      # quitting button you may use any
+      # desired button of your choice
+      if cv2.waitKey(1) & 0xFF == ord('q'):
+          break
+  
+  # After the loop release the cap object
+  vid.release()
+  # Destroy all the windows
+  cv2.destroyAllWindows()
+  
+  # Using the rectangle() function to create a rectangle.
+  rectangle = cv2.rectangle(output, (1500, 900), (600, 400), (255, 0, 0), 2)
+    </py-script>
+
+  
+  </body>
+</html>
